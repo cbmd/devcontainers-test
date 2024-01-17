@@ -4,7 +4,7 @@
   "workspaceFolder": "/var/www/APP",
   "dockerComposeFile": "docker-compose.yml",
   "build": {
-    "context": [".env", ".docker/"]
+    "context": ".docker/"
   },
   "remoteUser": "appuser"
 }
