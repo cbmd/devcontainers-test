@@ -1,8 +1,10 @@
 {
   "name": "paper-app",
   "service": "paper-app",
-  "workspaceFolder": "/var/www/app",
+  "workspaceFolder": "/var/www/APP",
   "dockerComposeFile": "docker-compose.yml",
-  "remoteUser": "appuser",
-  "context": "./"
+  "build": {
+    "context": [".env", ".docker/"]
+  },
+  "remoteUser": "appuser"
 }
