@@ -3,8 +3,6 @@
   "service": "paper-app",
   "workspaceFolder": "/var/www/APP",
   "dockerComposeFile": "../docker-compose.yml",
-  build: {
-    "context": "../.docker/"
-  },
+  "context": "../.docker/",
   "remoteUser": "appuser"
 }
